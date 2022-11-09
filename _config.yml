@@ -13,7 +13,7 @@ remote-theme: https://github.com/le4ker/personal-jekyll-theme/
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "/jseo977"
+baseurl: "/jseo977.github.io"
 
 # Google tracking id
 
