@@ -13,7 +13,7 @@ remote_theme: le4ker/personal-jekyll-theme
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: /jseo977
 
 # Google tracking id
 
