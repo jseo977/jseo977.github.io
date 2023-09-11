@@ -1,12 +1,60 @@
-<!DOCTYPE html><html lang="en"><head>
+<html><head><link rel="stylesheet" href="styles.ef46db3751d8e999.css"><script src="runtime.6a198f9dd82b7a8a.js" type="module"></script><script src="polyfills.8ff5c935bed1c1e9.js" type="module"></script><script src="main.320ff6bf88768841.js" type="module"></script><!--<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8">
   <title>Jseo977GHP</title>
-  <base href="/jseo.github.io/">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+</head>
 <body>
   <app-root></app-root>
-<script src="runtime.6a198f9dd82b7a8a.js" type="module"></script><script src="polyfills.8ff5c935bed1c1e9.js" type="module"></script><script src="main.320ff6bf88768841.js" type="module"></script>
+</body>
+</html>-->
+</head><body><div class="body">
+  <!-- Toolbar -->
+  <div class="toolbar" role="banner" style="position: fixed; z-index: 100">
+    <img src="../assets/images/avataaars-circle.png" style="height: 40px; padding-left: 20px">
 
+    <span style="font-size: 20px">Jae Min Seo - 서재민</span>
+      <div class="spacer"></div>
+  </div>
+
+  <div class="introduction">
+    <div class="introduction-text">
+      <p>
+        Welcome :D
+      </p>
+      <p>
+        My name is Jae Min!
+      </p>
+      <p>
+        Have a look around
+      </p>
+    </div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+
+  <div class="about-me">
+    <div class="about-me__text">
+      <p style="font-size: 40px; padding-bottom: 10px;">Hey there!</p>
+      What is Lorem Ipsum?
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
+
+    <div class="about-me__avatar">
+      <img src="../assets/images/avataaars.png" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
+    </div>
+  </div>
+
+  <div class="event-cards">
+    <app-event-card *ngfor="let event of eventCards" [imagepath]="event.imagePath" [longdescription]="event.longDescription" [shortdescription]="event.shortDescription" [titletext]="event.titleText"></app-event-card>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+  </footer>
+</div>
 </body></html>
