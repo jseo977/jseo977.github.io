@@ -1,0 +1,46 @@
+.event-card-component {
+    background-color: rgb(26, 126, 126);
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+        box-shadow: 10px 10px 11px rgb(33,33,33); 
+    }
+
+
+    .event-card-component__header {
+        display: flex;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 8px;
+        color: white;
+        justify-content: center;
+    }
+
+    .event-card-component__image {
+        width: 220px;
+        height: 100px;
+        object-fit: contain;
+        border-radius: 8px;
+
+        //TODO: Properly justify this at some point
+        padding-left: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .event-card-component__short-description {
+        display: flex;
+        padding: 8px;
+        max-height: 100px;
+        color: white;
+        justify-content: space-between
+    }
+}
