@@ -1,4 +1,4 @@
-<!--<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -10,55 +10,4 @@
 <body>
   <app-root></app-root>
 </body>
-</html>-->
-<div class="body">
-  <!-- Toolbar -->
-  <div class="toolbar" role="banner" style="position: fixed; z-index: 100">
-    <img src="../assets/images/avataaars-circle.png" style="height: 40px; padding-left: 20px">
-
-    <span style="font-size: 20px">Jae Min Seo - 서재민</span>
-      <div class="spacer"></div>
-  </div>
-
-  <div class="introduction">
-    <div class="introduction-text">
-      <p>
-        Welcome :D
-      </p>
-      <p>
-        My name is Jae Min!
-      </p>
-      <p>
-        Have a look around
-      </p>
-    </div>
-    <div class="wave"></div>
-    <div class="wave"></div>
-    <div class="wave"></div>
-  </div>
-
-  <div class="about-me">
-    <div class="about-me__text">
-      <p style="font-size: 40px; padding-bottom: 10px;">Hey there!</p>
-      What is Lorem Ipsum?
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </div>
-
-    <div class="about-me__avatar">
-      <img src="../assets/images/avataaars.png" style="height: 100%; width: 100%; object-fit: cover; border-radius: 8px;">
-    </div>
-  </div>
-
-  <div class="event-cards">
-    <app-event-card 
-      *ngFor="let event of eventCards" 
-      [imagePath]="event.imagePath" 
-      [longDescription]="event.longDescription" 
-      [shortDescription]="event.shortDescription" 
-      [titleText]="event.titleText"></app-event-card>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-  </footer>
-</div>
+</html>
